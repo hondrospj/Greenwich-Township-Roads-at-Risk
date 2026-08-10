@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Greenwich Township DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Greenwich Township boundary, adaptively resampled to 6.3 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.9167059610041233,
+  "pixelSizeFeet": 6.2884053838466425,
+  "adaptiveResolution": true,
+  "width": 3958,
+  "height": 4043,
+  "nodata": -999999,
+  "minMeters": -1.476,
+  "maxMeters": 7.471,
+  "meanMeters": 1.119,
+  "stdDevMeters": 1.486,
+  "minFeet": -4.84251968502,
+  "maxFeet": 24.511154855545,
+  "webMercatorBounds": [
+    -8393121.817347,
+    4770598.862949661,
+    -8385535.495153345,
+    4778348.10515
+  ],
+  "leafletBounds": [
+    [
+      39.3407516,
+      -75.3966961
+    ],
+    [
+      39.394564,
+      -75.3285506
+    ]
+  ],
+  "files": {
+    "demCog": "greenwich_township_dem_5ft_cog.tif",
+    "hillshadeCog": "greenwich_township_hillshade_cog.tif",
+    "hillshadePng": "greenwich_township_hillshade.png",
+    "boundaryGeojson": "greenwich_township_boundary.geojson"
+  }
+}
